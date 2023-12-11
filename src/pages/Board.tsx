@@ -1,4 +1,4 @@
-import React, { FC, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Grid } from "semantic-ui-react";
 import Square from "../components/Square";
 
