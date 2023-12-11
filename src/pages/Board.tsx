@@ -28,7 +28,7 @@ const Board: React.FC = () => {
     } else if (!winner && !squares.filter((square) => !square).length) {
       setWinner("Both players win, Reload for New game");
     }
-  });
+  }, [squares]);
   const calculateWinner = (squares: Player[]) => {
     const possibleWinningCombinations = [
       [0, 1, 2],
